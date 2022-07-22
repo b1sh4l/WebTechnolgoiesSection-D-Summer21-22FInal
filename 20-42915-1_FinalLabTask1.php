@@ -3,7 +3,7 @@ $servername="localhost";
 $username="root";
 $password="";
 $dbname="section_d";
-$name="Bruce";
+$name="Sadia";
 //$email="bruce@gmail.com";
 $email="bruce006@gmail.com";
 $cgpa=4.00;
@@ -16,7 +16,7 @@ if($conn->connect_error)
 else
 {
 	//$q="INSERT INTO Student(Name,Email,CGPA) VALUES('".$name."','".$email."',".$cgpa.")";
-	$q="UPDATE Student SET Email='".$email."' WHERE ID=42543";
+	$q="UPDATE Student SET Name='".$name."' WHERE ID=42541";
 
 	$result=$conn->query($q);
 	if($result)

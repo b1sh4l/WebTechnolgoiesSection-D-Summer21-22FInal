@@ -25,4 +25,5 @@ else
 		echo "Data not updated";
 }
 	$conn->close();
+
 ?>
